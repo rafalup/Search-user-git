@@ -38,7 +38,7 @@ export default function App() {
           <div className="user_encontrado">
             <h4>usuario encontrado:</h4>
             <img width={200} src={user.avatar_url} alt="avatar" />
-            <h4>{user.longin}</h4>
+            <h4>{user.login}</h4>
             <p>{user.bio}</p>
           </div>
         )}
